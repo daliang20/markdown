@@ -1,0 +1,19 @@
+pre code {
+	background-color: #eee;
+	display: block;
+	padding: 20px; 
+	border: 1px solid #999;
+}
+
+div#TOC {
+  position: fixed;
+  margin: 1em;
+  padding: 1em;
+  right: 2px;
+  top: 2px;
+  width: 500px; 
+  height: 200px; 
+  overflow: scroll;
+  background-color: #EEEEEE;
+  border: 1px solid black; }
+
