@@ -1,7 +1,6 @@
 PANDOC:=pandoc 
 PANDOC_HTML:=--to=html
-FLAGS:=--toc -s --self-contained
-
+FLAGS:=--toc -s --self-contained --template=html.template
 ifneq ("$(wildcard css/*.css)", "")
 	CSS = --css
 	CSS_FILES = $(wildcard css/*.css)

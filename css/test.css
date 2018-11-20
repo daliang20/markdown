@@ -1,3 +1,16 @@
+#TOC {
+    width: 20%; 
+    height: 40em;
+    font-size:70%;
+    position: fixed;
+    right: 0; 
+    overflow: auto;
+}
+
+#main {
+    float: left;
+    width:79.8%;
+}
 pre code {
 	background-color: #eee;
 	display: block;
@@ -5,15 +18,4 @@ pre code {
 	border: 1px solid #999;
 }
 
-div#TOC {
-  position: fixed;
-  margin: 1em;
-  padding: 1em;
-  right: 2px;
-  top: 2px;
-  width: 500px; 
-  height: 200px; 
-  overflow: scroll;
-  background-color: #EEEEEE;
-  border: 1px solid black; }
 
